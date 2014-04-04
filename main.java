@@ -2,20 +2,18 @@ class Main {
 
     public static void main(String[] args) {
 
-        String threeString = "Hello ";
+        String threeString = "Hello";
         String fiveString = "World";
 
         for (int i=1; i<=100; i++) {
-            if (i%3!=0 && i%5!=0) {
-                print(i);
+            if (i%3==0 && i%5!=0) {
+                print(threeString);
+            }
+            else if (i%3!=0 && i%5==0) {
+                print(fiveString);
             }
             else {
-                if (i%3==0) {
-                    print(threeString);
-                }
-                if (i%5==0) {
-                    print(fiveString);
-                }
+                print(i);
             }
             newLine();
         }

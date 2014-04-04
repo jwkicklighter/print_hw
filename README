@@ -2,5 +2,7 @@ This program is a variation of the Fizz Buzz program. Numbers 1 to 100 are print
 
 This program must be compiled for the host OS, so a pre-compiled bytecode file is not included. To run, first make sure that you have the JDK installed on your machine (the JRE is not enough). Then run the following in the program's root directory:
 
-javac Main.java
+javac main.java
 java Main
+
+NOTE: the compiler and runtime programs are case sensitive
